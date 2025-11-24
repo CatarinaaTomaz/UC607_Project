@@ -1,10 +1,10 @@
 
-📂 RH Avançado - Catarina
+## RH Avançado - Catarina
 Sistema de Gestão de Recursos Humanos em Consola (C++)
 
 Este projeto é uma aplicação de consola desenvolvida em C++ para facilitar a gestão administrativa de colaboradores, controlo de assiduidade, formação e relatórios numa organização. O sistema utiliza persistência de dados em ficheiro de texto com funcionalidades de segurança básica.
 
-🚀 Funcionalidades Principais
+## Funcionalidades Principais
 1. Gestão de Colaboradores
 
 Adicionar Colaborador: Registo de novos funcionários com geração automática de ID e atribuição de departamento.
@@ -44,7 +44,7 @@ Persistência: Todos os dados são guardados automaticamente em catarina_storage
 Encriptação: Os nomes dos colaboradores são gravados de forma cifrada (Cifra de César progressiva) para privacidade básica dos dados.
 
 
-🛠️ Como Compilar e Executar
+## Como Compilar e Executar
 Pré-requisitos
 Compilador C++ (GCC, Clang ou MSVC).
 
@@ -65,7 +65,7 @@ g++ main.cpp -o rh_sistema
 ./rh_sistema
 
 
-📋 Estrutura do Menu
+## Estrutura do Menu
 O sistema é navegado através de um menu numérico:
 
 Listar colaboradores: Mostra ID, Nome e Departamento.
@@ -81,7 +81,7 @@ Estatísticas por departamento: Totais anuais por setor.
 Dashboard resumido: Tabela geral de saldos de férias.
 Sair e guardar: Grava os dados e encerra.
 
-💾 Estrutura do Ficheiro de Dados (catarina_storage.txt)
+## Estrutura do Ficheiro de Dados (catarina_storage.txt)
 O ficheiro de base de dados utiliza um formato textual personalizado com delimitadores:
 
 ***: Separador de registos de colaboradores.
